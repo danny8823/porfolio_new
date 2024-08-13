@@ -1,0 +1,15 @@
+.project-container {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    border: 2px dotted yellow;
+    margin: 5px;
+    width: 300px;
+    height: auto;
+}
