@@ -7,7 +7,7 @@ function Header() {
     <div class = 'header-container'>
       <p class = 'header-name'>Danny Yoo</p>
       <img class = 'header-image' src={portrait} alt = 'portrait'/>
-      <ul>
+      <ul class = 'header-list'>
         <li>Fullstack Software Engineer</li>
         <li>Automation Support Specialist</li>
         <li>Code Lover</li>

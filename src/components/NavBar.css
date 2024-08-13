@@ -1,5 +1,11 @@
 .navbar-container {
     display: flex;
-    border: 2px dotted yellow;
     justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.navbar-container > a {
+    text-decoration: none;
+    color: teal;
+    font-size: 40px;
 }

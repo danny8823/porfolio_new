@@ -1,5 +1,4 @@
 .header-container {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +12,10 @@
     width: 400px;
     height: auto;
     border-radius: 100%;
-    border: 3px dotted purple;
 }
 
+.header-list {
+    list-style-type: circle;
+    font-size: 30px;
+    color: black
+}

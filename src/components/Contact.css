@@ -1,0 +1,41 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+.contact-container > h1 {
+    font-size: 50px;
+
+}
+
+.contact-container > p {
+    font-size: 40px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.form-field {
+    margin: 5px;
+}
+.form-field > label {
+    display: block;
+}
+.form-field > input {
+    display: block;
+    width: 300px;
+}
+
+.contact-link {
+    margin: 8px;
+}
+textarea {
+    resize: none;
+    width: 300px;
+    height: 100px;
+}

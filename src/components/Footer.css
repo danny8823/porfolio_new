@@ -1,0 +1,17 @@
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+
+.footer-container > a {
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: teal
+}
