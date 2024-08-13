@@ -7,13 +7,10 @@ function Header() {
     <div class = 'header-container'>
       <p class = 'header-name'>Danny Yoo</p>
       <img class = 'header-image' src={portrait} alt = 'portrait'/>
-      <ul class = 'header-list'>
-        <li>Fullstack Software Engineer</li>
-        <li>Automation Support Specialist</li>
-        <li>Code Lover</li>
-        <li>Coffee Lover</li>
-        <li>Former plumber</li>
-      </ul>
+      <p class = 'header-intro'>
+        Hey,<br/> my name is Danny Yoo and I am a software engineer. 
+        Thanks for visiting my portfolio, feel free to look around.
+      </p>
     </div>
   )
 }

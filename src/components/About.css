@@ -1,0 +1,14 @@
+.about-card {
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.about-card > h1 {
+    font-size: 50px;
+    border-bottom: 1px solid black;
+}
+
+.about-card > p {
+    font-size: 25px;
+}
